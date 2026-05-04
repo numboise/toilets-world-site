@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support - Toilets World</title>
+  <style>
+    :root {
+      --bg: #0d2345;
+      --panel: #ffffff;
+      --text: #152033;
+      --muted: #5e6b80;
+      --accent: #2f6df6;
+      --line: #dbe3f1;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #0b1d3a 0%, var(--bg) 100%);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    main {
+      width: min(760px, 100%);
+      background: var(--panel);
+      border-radius: 24px;
+      padding: 40px 32px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.22);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: 2rem;
+      line-height: 1.1;
+    }
+    p {
+      margin: 0 0 16px;
+      line-height: 1.65;
+      color: var(--muted);
+    }
+    .badge {
+      display: inline-block;
+      margin-bottom: 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: #eaf1ff;
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 20px;
+      margin-top: 24px;
+    }
+    .label {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a:hover { text-decoration: underline; }
+    ul {
+      margin: 12px 0 0;
+      padding-left: 18px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="badge">Toilets World</div>
+    <h1>Support</h1>
+    <p>Merci d'utiliser Toilets World.</p>
+    <p>Si vous avez une question, une suggestion ou un problème technique, vous pouvez nous contacter à l'adresse ci-dessous. Nous faisons de notre mieux pour répondre rapidement.</p>
+
+    <section class="card">
+      <div class="label">Contact support</div>
+      <a href="mailto:numboise@gmail.com">numboise@gmail.com</a>
+    </section>
+
+    <section class="card">
+      <div class="label">Toilets World peut vous aider pour :</div>
+      <ul>
+        <li>les problèmes de localisation</li>
+        <li>les suggestions d'amélioration</li>
+        <li>les erreurs d'affichage ou de carte</li>
+        <li>les questions générales sur l'application</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
